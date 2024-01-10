@@ -1,0 +1,382 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    max-width: 1440px;
+}
+
+html {
+    background-color: #F2F2F2;
+}
+
+h1 {
+    color: #4F4F4F;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 6.30px;
+}
+
+h2 {
+    color: #4F4F4F;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+h3 {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+p {
+    color: #828282;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.principal {
+    max-width: 100%;
+    padding: 71px 68px 183px 65px;
+    display: flex;
+    gap: 32px;
+
+}
+
+.card-izquierda {
+    width: 413px;
+    margin: 0;
+    background-color: #ffff;
+    padding: 0px 23px 0 23px;
+    border-radius: 12px;
+    margin-bottom: 44px;
+}
+
+.imagen-contenedor {
+    width: 367px;
+    height: 359px;
+    margin: 0;
+    padding-top: 23px;
+}
+
+.profile {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    padding-bottom: 24px;
+}
+
+.profile-p {
+    color: #828282;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 32.4px;
+}
+
+.profile-p:nth-child(4) {
+    padding-bottom: 33.46px;
+}
+
+.profile-2 {
+    color: #4F4F4F;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.mail,
+.telefono {
+    display: grid;
+    grid-template-columns: 25px repeat(1, 1fr);
+    gap: 16.73px;
+    margin: 0;
+}
+
+.mail {
+    padding-bottom: 10.46px;
+}
+
+.telefono {
+    padding-bottom: 35.55px;
+}
+
+.experiencias-img {
+    max-width: 84px;
+    max-height: 84px;
+    margin: 0;
+}
+
+.img-experiencias {
+    width: 100%;
+    height: 100%;
+}
+
+.adidas,
+.hym,
+.nivea {
+    display: grid;
+    grid-template-columns: 84px repeat(1, 1fr);
+    gap: 16px;
+}
+
+.experiencias-txt p {
+    padding-bottom: 12px;
+}
+
+.experiencias-txt .descripcion-experiencias {
+    padding-top: 33px;
+    padding-bottom: 36px;
+}
+
+.subtitle {
+    padding-top: 17px;
+    padding-bottom: 44px;
+}
+
+.img-hobbies {
+    width: 369px;
+    height: 139px;
+    padding-bottom: 26px;
+}
+
+.imagen-hobi {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+
+.h3-hoobies {
+    padding-bottom: 10px;
+}
+
+.descripcion-hobbies {
+    padding-bottom: 36px;
+}
+
+/* Lado derechoo */
+.desarrollador {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 48px;
+}
+
+.design {
+    height: 157px;
+}
+
+.card-derecho {
+    width: 415.025px;
+    border-radius: 12px;
+    background: #FFF;
+    margin: 0;
+    padding: 23.47px;
+}
+
+label {
+    color: #4F4F4F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+    padding-top: 17.07px;
+}
+
+.progreso-item {
+    display: grid;
+    grid-template-columns: 111px repeat(1, 1fr);
+    gap: 20.27px;
+    align-items: end;
+}
+
+progress {
+    width: 236.852px;
+    height: 15px;
+}
+
+.projects-banner {
+    padding: 22px;
+    width: 862px;
+    height: 66px;
+}
+
+
+h4 {
+    color: #4F4F4F;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.img-projects img {
+    width: 321.999px;
+    height: 274px;
+}
+
+.projects-item {
+    display: flex;
+    gap: 34.32px;
+    padding: 23px 20.19px 23px 18.17px;
+    width: 862px;
+    height: 320px;
+    margin-bottom: 36px;
+}
+
+.projects-item p {
+    margin-bottom: 51px;
+}
+
+span {
+    color: #4F4F4F;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.directorio {
+    margin: 25px 0 18px 0;
+}
+
+.btn-1 {
+    width: 136.269px;
+    height: 46px;
+    border-radius: 12px;
+    cursor: pointer;
+    background: #2F80ED;
+    color: #FFF;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 11.1px;
+}
+
+.btn-2 {
+    width: 119.109px;
+    height: 46px;
+    border-radius: 12px;
+    cursor: pointer;
+    border: 1px solid #2F80ED;
+    color: #2F80ED;
+    background-color: #ffff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.projects-item:nth-child(2) {
+    margin-top: 16px;
+}
+
+.blog-banner {
+    margin-top: 12px;
+    padding: 22px;
+    width: 862px;
+    height: 66px;
+}
+
+.blog-item {
+    display: flex;
+    gap: 75px;
+    padding: 34px 0 10px 20px;
+    width: 862px;
+    height: 408px;
+    overflow: hidden;
+    margin-top: 16px;
+}
+
+.blog-item h2 {
+    color: #333;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 26px;
+}
+
+.img-blog img {
+    width: 467px;
+    height: 357px;
+    border-radius: 12px;
+}
+
+.blog p {
+    width: 318px;
+    margin-bottom: 21px;
+}
+
+.span-transparente {
+    color: #E0E0E0;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.etiqueta-azul {
+    color: #2F80ED;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+@media (max-width:768px) {
+    .principal {
+        padding: 28px;
+    }
+
+    progress {
+        width: 100%;
+    }
+
+    .imagen-contenedor,
+    .img-hobbies {
+        width: 100%;
+    }
+
+    .card-izquierda {
+        max-width: 340px;
+    }
+
+    .derecha-content {
+        max-width: 340px;
+    }
+}
+
+@media (max-width:1024px) {
+
+    .desarrollador {
+        flex-direction: column;
+    }
+
+    .card-derecho {
+        width: auto;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .img-projects {
+        width: 100%;
+        height: 100%;
+    }
+
+    .img-projects img {
+        width: 100%;
+    }
+
+    .blog-banner {
+        width: 100%;
+    }
+}
